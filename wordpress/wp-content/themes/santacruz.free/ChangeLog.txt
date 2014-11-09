@@ -1,0 +1,7 @@
+------------------ VER 1.0.1 ---------------
+fixed: post content hide
+fixed: color post title blog
+
+------------------ VER 1.0.0 ---------------
+Initial Release
+
