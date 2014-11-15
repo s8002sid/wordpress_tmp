@@ -1,6 +1,0 @@
-<?php
-/**
- * Content Wrappers
- */
-?>
-</div>       
