@@ -1,4 +1,4 @@
-mysql -u root -p wordpress < wordpress_bak.sql
 tar -zxvf wordpress_sqldb.tgz
-cp -r ./wordpress /var/lib/mysql/wordpress
+cp -r ./wordpress /var/lib/mysql
 rm -rf ./wordpress
+mysql -u root -p wordpress < wordpress_bak.sql

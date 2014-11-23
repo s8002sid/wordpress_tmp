@@ -587,7 +587,8 @@ ul.nav li a {
 }
 #header #logo {
   float: left;
-  margin-bottom: 1.618em;
+  margin-bottom: 0.0em;
+  /*margin-bottom: 1.618em;*/
 }
 #header .site-title,
 #header .site-description {
@@ -3399,7 +3400,8 @@ INDEX
   }
   .homepage-banner {
     position: relative;
-    max-width: 95.949em;
+    max-width: 110.949em;
+    margin-top: 3em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3.631em;
@@ -3454,7 +3456,7 @@ INDEX
   }
   .homepage-banner:after {
     content: "";
-    display: block;
+    display: none;
     position: absolute;
     top: 0;
     left: 0;
