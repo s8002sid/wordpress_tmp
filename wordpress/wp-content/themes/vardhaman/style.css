@@ -12,13 +12,13 @@
 /*
  * This cide snippet will add a fixed top bar to the site
  */
-#top 
+/*#top 
 {
     position:fixed;
     top: 30px;
     z-index: 1000;
     width: 100%;
-}
+}*/
 
 /*Removing dots over the banner image*/
 .homepage-banner:after { display: none; }
