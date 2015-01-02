@@ -5,5 +5,5 @@ echo 'copying wordpress mysql file...'
 cp -r /var/lib/mysql/wordpress .
 
 echo 'creating tar and removing tmp folder...'
-tar -zcvf wordpress_sqldb.tgz ./wordpress
+tar -zcf wordpress_sqldb.tgz ./wordpress
 rm -rf ./wordpress
