@@ -3,8 +3,8 @@
 Contributors: yithemes
 Tags: zoom, magnifier, woocommerce, products, themes, yit, e-commerce, shop
 Requires at least: 3.5.1
-Tested up to: 4.0
-Stable tag: 1.1.4
+Tested up to: 4.0.1
+Stable tag: 1.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,7 +20,7 @@ The Wordpress plugin also adds a slider below the featured image with your produ
 
 Working demo are available:
 
-**[LIVE DEMO 1](http://demo.yithemes.com/room09/product/africa-style/)** - **[LIVE DEMO 2](http://demo.yithemes.com/bazar/shop/ankle-shoes/)**
+**[LIVE DEMO 1](http://preview.yithemes.com/room09/product/africa-style/)** - **[LIVE DEMO 2](http://preview.yithemes.com/bazar/shop/ankle-shoes/)**
 
 
 Full documentation is available [here](http://yithemes.com/docs-plugins/yith_magnifier/).
@@ -69,6 +69,9 @@ The size of the Zoom Image is automatically setted. If you want to change these 
 2. The Magnifier settings page
 
 == Changelog ==
+= 1.1.5 =
+
+* Fixed: multiple wrap
 
 = 1.1.4 =
 

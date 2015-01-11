@@ -90,8 +90,8 @@ wp_head();
 					?>
                 </div>
 		<?php 
-			if(is_page('shop'))
-				echo do_shortcode("[huge_it_slider id='1']"); 
+            if(is_page('shop'))
+                echo do_shortcode("[huge_it_slider id='1']");
 		?>
                 <section id="navigation" class="twelve columns">
                     <nav id="nav-wrap">
