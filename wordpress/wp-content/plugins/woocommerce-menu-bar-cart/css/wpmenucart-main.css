@@ -3,7 +3,7 @@
 }
 
 .wpmenucart-contents > .amount:before {
-	content: '-';
+	content: ':';
 	margin: 0 0.25em;
 }
 
