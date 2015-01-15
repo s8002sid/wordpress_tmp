@@ -69,7 +69,7 @@ section{padding:10px 0;}
 .col_one_third{width:31%; margin-right:3%;}
 .col_one_fourth{width:22%; margin-right:3%;}
 .col_one_fifth{width:18%; margin-right:2%;}
-#footer{background-color:#333; color:#eeeeee; padding:50px 0 40px;}
+#footer{background-color:#333; color:#eeeeee; padding:20px 0 10px;}
 #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6{color:#fff;}
 #footer hr{background:url(images/hr_footer.png) repeat-x center center; border:none; padding:15px 0 0; clear:both;}
 #footer a, #copyright a{color:#fff;}
