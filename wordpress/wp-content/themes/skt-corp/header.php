@@ -90,7 +90,7 @@
                         <?php } ?>
                     </div><?php                            
                     if( of_get_option('slideurl'.$sln, true) != '' ){ ?>
-                        <p class="slide_more"><a href="<?php echo esc_url(of_get_option('slideurl'.$sln, true)); ?>"><?php _e('Read More','skt-corp'); ?></a></p><?php 
+                        <p class="slide_more"><a href="<?php echo esc_url(of_get_option('slideurl'.$sln, true)); ?>"><?php _e('View Products','skt-corp'); ?></a></p><?php 
                     } ?>
                     </div><?php 
                 } ?>
