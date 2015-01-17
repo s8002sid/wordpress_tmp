@@ -63,4 +63,30 @@ function woo_archive_custom_cart_button_text() {
     return __('Add to cart', 'woocommerce');
 } 
 
+add_filter( 'wp_nav_menu_items', 'wti_loginout_menu_link', 10, 2 );
+ 
+function wti_loginout_menu_link( $items, $args ) 
+{
+    if ($args->theme_location == 'primary') 
+    {
+        if (is_user_logged_in()) 
+        {
+            /*get My Account page id*/
+            $myaccount_page_id = get_option( 'woocommerce_myaccount_page_id' );
+            if ( $myaccount_page_id ) {
+                  $myaccount_page_url = get_permalink( $myaccount_page_id );
+            }
+            $items .= '<li><a href="'. $myaccount_page_url .'">My Account</a>';
+            $items .= '<ul class="sub-menu">';
+                $items .= '<li><a href="'. wp_logout_url() .'">Signout</a></li>';
+            $items .= '</ul></li>';
+        } 
+        else 
+        {
+            $items .= '<li><a href="'. wp_login_url(get_permalink()) .'">Signin</a></li>';
+        }
+    }
+    return $items;
+}
 ?>
+
