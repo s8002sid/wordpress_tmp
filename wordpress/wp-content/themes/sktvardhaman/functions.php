@@ -83,7 +83,7 @@ function wti_loginout_menu_link( $items, $args )
         } 
         else 
         {
-            $items .= '<li><a href="'. wp_login_url(get_permalink()) .'">Signin</a></li>';
+            $items .= '<li><a href="'. get_permalink( get_option( 'woocommerce_myaccount_page_id' ) ) .'">Signin</a></li>';
         }
     }
     return $items;
